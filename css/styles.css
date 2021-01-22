@@ -81,11 +81,25 @@ input {
   top: -1px;
 }
 
+.radio {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+}
+
 .form-group {
   padding-top: 15px;
 }
+
 .input-textarea {
   width: 100%;
   resize: vertical;
 }
 
+#form-submitted {
+  display: none;
+}
