@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title></title>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <h1 id="title">DIY Skincare Products</h1>
+      <p id="description">Fill out the form to express interest in a class.</p>
+      <form id="survey-form" action="#" method="post">
+        <div class="form-group">
+          <label for="name" id="name-label" class="label">Name</label>
+          <br>
+          <input type="text" id="name" required placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email" id="email-label" class="label">Email</label>
+          <br>
+          <input type="email" id="email" required placeholder="Enter your Email">
+        </div>
+        <div class="form-group">
+          <label for="number" id="number-label" class="label">Phone Number (optional)</label>
+          <br>
+          <input type="number" id="number" optional placeholder="123-123-1234">
+        </div>
+        <div class="form-group">
+          <label for="experience" class="label">Which best describes your experience?</label>
+          <select class="form-control" id="dropdown">
+            <option disabled selected>Select</option>
+            <option>None</option>
+            <option>I've made lip balm, deodorant, lotion bars</option>
+            <option>I've successfully followed recipes for emulsions (lotion, conditioner)</option>
+            <option>I'm comfortable formulating my own emulsions</option>
+            <option>I have the ingredients, the equipment, and my own lab. I could teach this.</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="label" id="make-label">What would you like to make in the class?</label>
+          <div class="product">
+              <label for="eye">Eye Cream</label>
+              <input type="checkbox" name="eye" id="eye" class="check">
+          </div>
+          <div class="product">
+              <label for="face">Face Cream</label>
+              <input type="checkbox" name="face" id="face" class="check">
+          </div>
+          <div class="product">
+            <label for="serum">Face Serum</label>
+            <input type="checkbox" name="serum" id="serum" class="check">
+          </div>
+          <div class="product"
+            <label for="lotion">Hand or Body Lotion</label>
+            <input type="checkbox" name="lotion" id="lotion" class="check">
+          </div>
+          <div class="product">
+            <label for="balm">Lip Balm</label>
+            <input type="checkbox" name="balm" id="serum" class="check">
+          </div>
+        </div>
+        <div class="form-group" id="contact">
+          <p class="label">Would you like to be notified of upcoming classes?</p>
+          <div class="contact">
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="yes" />
+          </div>
+          <div class="contact">
+            <label for="no">No</label>
+            <input type="radio" id="no" name="no" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="label" id="comments-label">Any comments or suggestions?</label>
+          <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <button type="submit" class="btn" id="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

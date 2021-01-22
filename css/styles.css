@@ -1,0 +1,91 @@
+body {
+  background-color: rgba(163, 124, 126, .25);
+}
+
+.container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+p {
+  font-family: Avenir;
+}
+
+form {
+  font-family: HellasCour;
+}
+
+form p {
+  font-family: HellasCour;
+  padding-left: 0;
+}
+
+.box {
+  background-color: white;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+p, h1 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-family: 'Inconsolata', monospace;
+}
+
+.form-group {
+  padding: 5px;
+}
+
+input {
+  width: 100%;
+}
+
+.label {
+  font-weight: bold;
+}
+
+#make-label {
+  padding-left: 5px;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: .25rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: .25rem;
+}
+
+
+.check {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+}
+
+.form-group {
+  padding-top: 15px;
+}
+.input-textarea {
+  width: 100%;
+  resize: vertical;
+}
+
