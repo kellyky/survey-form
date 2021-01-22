@@ -4,6 +4,8 @@ by Kelly Young
 ## Technologies Used
 * HTML
 * CSS
+* Javascript
+* JQuery
 
 ## Description
 A form to guage interest in a potential formulating course I may offer. 
@@ -12,7 +14,11 @@ A form to guage interest in a potential formulating course I may offer.
 Visit https://kellyky.github.io/survey-form/ and fill out the form. 
 
 ## Known Bugs
-You'll get an error when you submit the form - the form is curerntly HTML/CSS only. I need to add code to do something with the form data. 
+The form doesn't do anything with the data yet. You will likely get an error if you try submitting it. 
+
+The Yes/No radio buttons don't line up quite right. 
+
+Mobile styling is not quite right.
 
 ## Licence
 [MIT](https://choosealicense.com/licenses/mit/)
