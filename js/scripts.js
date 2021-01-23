@@ -11,8 +11,8 @@ $(document).ready(function() {
       selectedProducts.push(selectedProduct);
     });
     const comments = $("#comments").val();  
-    $("form#survey-form").hide();
-    $("div.form-submitted").show();
+    // $(".visible-with-form").hide();
+    // $(".form-data").show();
+    
   });
-
 });

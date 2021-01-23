@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css"> -->
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="container">
-    <div class="box">
+    <div class="box visible-with-form">
       <h1 id="title">DIY Skincare Products</h1>
       <p id="description">Fill out the form to express interest in a class.</p>
       <form id="survey-form" action="#" method="post">
@@ -67,12 +67,12 @@
         <div class="form-group">
           <p class="label">Would you like to be notified of upcoming classes?</p>
           <div class="contact">
+            <input type="radio" id="yes" name="contact" value="yes">
             <label for="yes">Yes</label>
-            <input type="radio" id="yes" name="contact" value="yes" />
           </div>
           <div class="contact">
+            <input type="radio" id="no" name="contact" value="no">
             <label for="no">No</label>
-            <input type="radio" id="no" name="contact" value="no" />
           </div>
         </div>
         <div class="form-group">
@@ -81,7 +81,9 @@
         </div>
         <button type="submit" class="btn" id="submit">Submit</button>
       </form>
-      <div id="form-submitted">Placeholder</div>
+      <!-- <div class="box form-data"> -->
+      <!--   <p>Placeholder</p> -->
+      <!-- </div> -->
 
     </div>
   </div>
