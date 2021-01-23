@@ -3,8 +3,7 @@ body {
 }
 
 .container {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 80px 15px 80px 15px;
 }
 
 p {
