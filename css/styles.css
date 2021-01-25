@@ -51,8 +51,12 @@ input {
   
 }
 
-#name, #email, #number, #experience {
-  height: 25px;
+#name, #email, #number  {
+  height: 30px;
+}
+
+option.option {
+  height: 30px;
 }
 
 label {
@@ -69,7 +73,21 @@ label {
   display: flex;
   justify-content: space-between;
   width: 30%;
-  margin: .25rem;
+  margin: .35rem;
+}
+
+label.product-label {
+  float: right;
+  display: flex;
+  justify-content: flex-start;
+}
+
+input[type=checkbox] {
+  display: flex;
+  justify-content: flex-end;
+  float: left;
+  padding-right: 25px;
+  margin-right: 25px;
 }
 
 .contact * {
@@ -101,9 +119,6 @@ label {
 
 #experience {
   width: 100%;
+  margin-bottom: 15px;
 }
 
-/* option { */
-/*   display: flex; */
-/*   justify-content: space-between; */
-/* } */
